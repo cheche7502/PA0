@@ -11,7 +11,6 @@ struct CourseEntry {
 int main(int argc, char** argv)
 {
   printf("Hello, World!\n");
-
   printf("You have %d arguments.\n", argc);
 
   for (int it = 0; it < argc; ++it) {
